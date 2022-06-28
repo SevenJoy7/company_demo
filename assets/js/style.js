@@ -64,6 +64,7 @@ function hiddenMenu() {
     closeIconMenu.classList.add('show');
 }
 closeMenu.addEventListener('click', hiddenMenu);
+mainBtn.addEventListener('mouseup', hiddenMenu);
 
 //search
 function showSearch() {
