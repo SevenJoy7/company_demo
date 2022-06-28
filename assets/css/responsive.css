@@ -1,0 +1,130 @@
+@media (min-width: 1024px) {
+    #header .menu-nav__list {
+        display: flex !important;
+    }
+}
+
+/* mobile & tablet */
+
+@media (max-width: 1023px) {
+    .header-right .icon_text {
+        display: none;
+    }
+
+
+    #introduce .pl-40 {
+        padding-left: 15px;
+        padding-top: 40px;
+    }
+    
+}
+
+
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    #nav-scroll a:first-child,
+    #nav-scroll .logo__img,
+    .top-nav__wrapper .searchform-popup,
+    .top-nav__wrapper .top-cart,
+    .nav-box:last-child,
+    #main .hiden-tab {
+        display: none;
+    }
+
+    .header-right .hidden {
+        display: block;
+    }
+
+    #header .menu-nav__list {
+        display: flex !important;
+    }
+
+    #header .nav-box button {
+        padding: 13px 10px;
+    }
+
+    #main #nav-scroll .menu-nav__text {
+        padding: 15px 12px;
+    }
+    /* introduce */
+    #introduce .introduce-company__wrap {
+        padding: 15px 50px;
+        text-align: justify;
+    }
+
+    #introduce h1 {
+        text-align: center;
+    }
+
+    #introduce .mainbox-title__list {
+        justify-content: center;
+    }
+
+
+    .blog-news__item {
+        margin: 0 40px;
+    }
+
+    .btn-submit {
+        min-width: 200px;
+        text-align: center;
+    }
+
+    #footer .footer__img {
+        width: 100px;
+    }
+
+    #footer h3 {
+        font-size: 1rem;
+    }
+
+    .hidden-responsive {
+        display: none;
+    }
+}
+
+
+/* mobile */
+
+@media (max-width: 739px) {
+    #main #nav-scroll,
+    #main .hidden-mobile,
+    .top-nav__wrapper .top-cart {
+        display: none;
+    }
+
+    #main .hidden-pc {
+        display: block;
+    }
+
+    #header .top-nav__wrapper,
+    .menu-nav__list {
+        width: 100%;
+    }
+
+    #header .header-top__wraper {
+        padding: 0;
+    }
+
+    #rademark .rademark__item {
+        padding: 15px 0;
+    }
+
+    #introduce .introduce-company__wrap {
+        padding: 15px 0;
+        text-align: justify;
+    }
+
+    #evaluate .evaluate-message__item {
+        display: inline-block;
+    }
+
+    #category .row {
+        justify-content: center;
+    }
+
+    #product .product__list {
+        display: block;
+    }
+}
